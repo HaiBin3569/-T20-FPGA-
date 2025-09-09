@@ -1,4 +1,4 @@
-#基本概念
+基本概念
 | 英文术语                  | 中文解释                 | 类比/作用                                        |
 | --------------------- | --------------------        | ---------------------------                     |
 | **Git**               | 一个版本控制工具             | 类似“自动保存历史记录的硬盘”，记录每次修改，不怕写错 |
@@ -15,23 +15,23 @@
 | **Fork**              | 复制别人的仓库到自己 GitHub 账号 | 在别人实验台开一份自己的副本                    |
 |**star**               |点赞，收藏                     |表示赞赏，也是收藏，便于下次快速找到                |
 
-#开发流程
-##创建主仓库
+开发流程
+创建主仓库
 队长在 GitHub 上创建 FPGA_ADC_UI_Project 仓库
 里面有 main 分支（稳定版本）、/src 文件夹、/docs 文件夹
 
-##每人开分支
+每人开分支
 成员A：adc_module_dev
 成员B：vga_module_dev
 队长：learning_notes_update
 git clone 仓库到本地
 git checkout -b <分支名> 开新分支
 
-##写代码 / 文档
+写代码 / 文档
 git add + git commit 提交修改
 git push origin <分支名> 上传到 GitHub
 
-##合并到 main
+合并到 main
 发起 Pull Request
 队长审核、测试通过后，点击 Merge 合并到 main
 保持同步
